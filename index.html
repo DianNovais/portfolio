@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta content='#7B68EE' name='theme-color'/>
+	<link rel="icon" type="image/png" href="./assets/img/favicon.png">
+	<title>Dian Novais</title>
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+</head>
+<body>
+	<header id="header" class="header-container">
+		<a href="#" id="fechar" onclick="FecharTudo()" style="font-size: 20px; position: absolute; top: 4rem; right: 8rem; text-decoration: none; color: white;"><b>X</b><a>
+		<nav class="menu-items">
+			<ul class="social">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#sobremim">Sobre Mim</a></li>
+				<li><a href="#conhecimento">Conhecimento</a></li>
+				<li><a href="#projetos">Projetos</a></li>
+				<li><a href="#contato">Contato</a></li>
+				
+			</ul>
+			
+		</nav>
+	</header>
+	<main class="container">
+		<div class="start">
+			<h1>Dian Novais Da Cruz</h1>
+			<p style="font-size: 20px">Desenvolvedor Junior</p>
+			<p id="info">click no meu cérebro</p>
+			<img id="brain" onclick="AbrirTudo()" class="brain" src="./assets/img/brain.png" alt="cerebro" width="100px" height="100px">
+		</div>
+
+		<section id="tudo" class="tudo">
+			<div id="sobremim">
+				<h2>Sobre Mim</h2>
+				<div class="linha"></div>
+				<br>
+				<h3 style="text-align: center;">Dian Novais</h3>
+				<p style="text-align: center;"><b>Podem me chamar de Di</b></p>
+				<div class="sobremim">
+					<div class="sobremim-left">
+						<a class="perfil"></a>
+					</div>
+					<div class="sobremim-right">
+						<p class="escrita">Tenho estudado bastante sobre algumas linguagens de programação, fiz curso técnico no SENAC sobre ADM de banco de dados onde foi meu ponta pé inicial para minha carreira de estudante em programação, e hoje estudo por conta e pretendo aprofundar mais a cada dia nessa aréa, também gosto muito de fazer de tudo um pouco, gosto de ser criativo, e amo também a engenharia mecânica, como as coisas funcionam com uma certa precisão e perfeição como na programação que também é uma engenharia. Mudando um pouco sobre carreira profissional, adoro sair com minha futura esposa e me eventurar as vezes para sentir a adrenalina no corpo. 
+
+	</p>
+					</div>
+				</div>
+				<div class="bottom-button">
+					<a href="#" class="botaomain">Baixar Currículo</a>
+				</div>
+			</div>
+			<div id="conhecimento">
+				<h2>Conhecimento</h2>
+				<div class="linha"></div>
+				<br>
+				<div class="conhecimento">
+					<div class="cards">
+						<div class="content-icon">
+							<a class="icon-web" href=""></a>
+						</div>
+						<h3>Desenvolvimento Web</h3>
+						<p>Conhecimento em front-End em HTML, CSS e Javascript.</p>
+					</div>
+					<div class="cards">
+						<div class="content-icon">
+							<a class="icon-web" href=""></a>
+						</div>
+						<h3>Desenvolvimento Back-End</h3>
+						<p>Conhecimento raso em PHP e Banco de dados em SQL.</p>
+					</div>
+					<div class="cards">
+						<div class="content-icon">
+							<a class="icon-web" href=""></a>
+						</div>
+						<h3>FrameWork e Biblioteca</h3>
+						<p>Conhecimento em ReactJs.</p>
+					</div>
+
+				</div>
+			</div>
+			<div id="projetos">
+				<h2>Projetos</h2>
+				<div class="linha"></div>
+				<br>
+				<div class="projetos">
+					<div class="cards-projetos">
+						<div onclick="abrirJanela('https://diannovais.github.io/DivaNutricao/');" class="card">
+							<h3>Diva Nutrição</h3>
+							<p>Projeto feito com HTML,CSS E Javascript.</p>
+							<img class="instagram-img" src="./assets/img/diva-nutricao.png">
+						</div>
+						<div onclick="abrirJanela('')" class="card">
+							<h3>Netflix</h3>
+							<p>Projeto feito com React</p>
+							<img class="instagram-img" src="projetos/netflix_unsplash.jpg">
+						</div>
+						<div onclick="abrirJanela('')" class="card">
+							<h3>Instagram</h3>
+							<p>Projeto feito com React</p>
+							<img class="instagram-img" src="projetos/instagram.jpg">
+						</div>
+						<div onclick="abrirJanela('')" class="card">
+							<h3>Netflix</h3>
+							<p>Projeto feito com React</p>
+							<img class="instagram-img" src="projetos/netflix_unsplash.jpg">
+						</div>
+						<div onclick="abrirJanela('')" class="card">
+							<h3>Netflix</h3>
+							<p>Projeto feito com React</p>
+							<img class="instagram-img" src="projetos/netflix_unsplash.jpg">
+						</div>
+						<div onclick="abrirJanela('')" class="card">
+							<h3>Netflix</h3>
+							<p>Projeto feito com React</p>
+							<img class="instagram-img" src="projetos/netflix_unsplash.jpg">
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div id="contato">
+				<h2>Contato</h2>
+				<div class="linha"></div>
+				<br>
+			</div>
+			
+		</section> 
+	</main>
+	<footer id="footer" class="footer-container">
+		<p>© <a href="https://diannovais.github.io/portfolio/">Dian Novais</a> | Todos direitos reservados.
+	</footer>
+	<script src="./assets/js/anima.js"></script>
+	<script src="./assets/js/href-card.js"></script>
+</body>
+</html>
