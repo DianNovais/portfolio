@@ -34,3 +34,4 @@ function FecharTudo(){
     footer.style.transition= "2s";
     
 }
+
