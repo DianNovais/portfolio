@@ -1,36 +1,40 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta content='#7B68EE' name='theme-color'/>
+	<meta content='#7B68EE' name='theme-color' />
 	<link rel="icon" type="image/png" href="./assets/img/favicon.png">
 	<title>Dian Novais</title>
 	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 </head>
+
 <body>
 	<header id="header" class="header-container">
-		<a href="#" id="fechar" onclick="FecharTudo()" style="font-size: 20px; position: absolute; top: 4rem; right: 8rem; text-decoration: none; color: white;"><b>X</b><a>
-		<a href="#" name="top" id="top"></a>
-			<nav class="menu-items">
-			<ul class="social">
-				<li><a href="index.html">Home</a></li>
-				<li><a href="#sobremim">Sobre Mim</a></li>
-				<li><a href="#conhecimento">Conhecimento</a></li>
-				<li><a href="#projetos">Projetos</a></li>
-				<li><a href="#contato">Contatos</a></li>
-				
-			</ul>
-			
-		</nav>
+		<a href="#" id="fechar" onclick="FecharTudo()"
+			style="font-size: 20px; position: absolute; top: 4rem; right: 8rem; text-decoration: none; color: white;"><b>X</b><a>
+				<a href="#" name="top" id="top"></a>
+				<nav class="menu-items">
+					<ul class="social">
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#sobremim">Sobre Mim</a></li>
+						<li><a href="#conhecimento">Conhecimento</a></li>
+						<li><a href="#projetos">Projetos</a></li>
+						<li><a href="#contato">Contatos</a></li>
+
+					</ul>
+
+				</nav>
 	</header>
 	<main class="container">
 		<div class="start">
 			<h1>Dian Novais Da Cruz</h1>
 			<p style="font-size: 20px">Desenvolvedor Front-End</p>
 			<p id="info">click no meu cérebro</p>
-			<img id="brain" onclick="AbrirTudo()" class="brain" src="./assets/img/brain.png" alt="cerebro" width="100px" height="100px">
+			<img id="brain" onclick="AbrirTudo()" class="brain" src="./assets/img/brain.png" alt="cerebro" width="100px"
+				height="100px">
 		</div>
 
 		<section id="tudo" class="tudo">
@@ -45,9 +49,16 @@
 						<a class="perfil"></a>
 					</div>
 					<div class="sobremim-right">
-						<p class="escrita">Tenho estudado bastante sobre algumas linguagens de programação, fiz curso técnico no SENAC sobre ADM de banco de dados onde foi meu ponta pé inicial para minha carreira de estudante em programação, e hoje estou aprofundando mais a cada dia nessa aréa, cursando ensino superior em ADS e pretendo me torna um <b>FULL STACK</b>, também gosto muito de fazer de tudo um pouco, gosto de ser criativo, e amo também a engenharia mecânica, como as coisas funcionam com uma certa precisão e perfeição como na programação que também é uma engenharia. Mudando um pouco sobre carreira profissional, adoro sair com minha namorada e me eventurar as vezes para sentir a adrenalina no peito. 
+						<p class="escrita">Tenho estudado bastante sobre algumas linguagens de programação, fiz curso
+							técnico no SENAC sobre ADM de banco de dados onde foi meu ponta pé inicial para minha
+							carreira de estudante em programação, e hoje estou aprofundando mais a cada dia nessa aréa,
+							cursando ensino superior em ADS e pretendo me torna um <b>FULL STACK</b>, também gosto muito
+							de fazer de tudo um pouco, gosto de ser criativo, e amo também a engenharia mecânica, como
+							as coisas funcionam com uma certa precisão e perfeição como na programação que também é uma
+							engenharia. Mudando um pouco sobre carreira profissional, adoro sair com minha namorada e me
+							eventurar as vezes para sentir a adrenalina no peito.
 
-	</p>
+						</p>
 					</div>
 				</div>
 				<div class="bottom-button">
@@ -71,7 +82,7 @@
 							<a class="icon-web" href=""></a>
 						</div>
 						<h3>FrameWork e Biblioteca</h3>
-						<p>Conhecimento em ReactJs.</p>
+						<p>Conhecimento em ReactJs.(hooks React, Hooks react-router-dom...)</p>
 					</div>
 					<div class="cards">
 						<div class="content-icon">
@@ -89,36 +100,26 @@
 				<br>
 				<div class="projetos">
 					<div class="cards-projetos">
+						<div onclick="abrirJanela('https://ditecblog.000webhostapp.com/')" class="card">
+							<h3>DiTecBlog</h3>
+							<p>Projeto feito com React e Firebase.</p>
+							<img class="instagram-img" src="projetos/ditecblog.png">
+							<div class="buttonContainer"><a href="https://github.com/DianNovais/ditecblog" class="btnGit"><i class="bi bi-github"> </i>GitHub</a></div>
+
+						</div>
 						<div onclick="abrirJanela('https://diannovais.github.io/SecretWord/')" class="card">
 							<h3>Advinhe a Palavra</h3>
 							<p>Projeto feito com React.</p>
 							<img class="instagram-img" src="./assets/img/secretWord.png">
+							<div class="buttonContainer"><a href="https://github.com/DianNovais/SecretWord" class="btnGit"><i class="bi bi-github"> </i>GitHub</a></div>
 						</div>
 						<div onclick="abrirJanela('https://diannovais.github.io/DivaNutricao/');" class="card">
 							<h3>Diva Nutrição</h3>
 							<p>Projeto feito com HTML,CSS E Javascript.</p>
 							<img class="instagram-img" src="./assets/img/diva-nutricao.png">
+							<div class="buttonContainer"><a href="https://github.com/DianNovais/DivaNutricao" class="btnGit"><i class="bi bi-github"> </i>GitHub</a></div>
 						</div>
-						<div onclick="abrirJanela('')" class="card">
-							<h3>Instagram</h3>
-							<p>Projeto feito com React(Em Desenvolvimento).</p>
-							<img class="instagram-img" src="projetos/instagram.jpg">
-						</div>
-						<div onclick="abrirJanela('')" class="card">
-							<h3>Netflix</h3>
-							<p>Projeto feito com React(Em Desenvolvimento).</p>
-							<img class="instagram-img" src="projetos/netflix_unsplash.jpg">
-						</div>
-						<div onclick="abrirJanela('')" class="card">
-							<h3>Netflix</h3>
-							<p>Projeto feito com React(Em Desenvolvimento).</p>
-							<img class="instagram-img" src="projetos/netflix_unsplash.jpg">
-						</div>
-						<div onclick="abrirJanela('')" class="card">
-							<h3>Netflix</h3>
-							<p>Projeto feito com React(Em Desenvolvimento).</p>
-							<img class="instagram-img" src="projetos/netflix_unsplash.jpg">
-						</div>
+						
 					</div>
 
 				</div>
@@ -128,17 +129,17 @@
 				<div class="linha"></div>
 				<br>
 				<div class="contato">
-					<div class="contato-left"> 
+					<div class="contato-left">
 						<div class="info-ctt">
 							<h3>Informações Pessoais</h3>
 							<div class="container-info">
-							 	<div class="cont">
+								<div class="cont">
 									<i class="fa-fa bi bi-person"></i>
 									<div class="cont-column">
 										<p class="p-title">Nome</p>
 										<p>Dian Novais</p>
 									</div>
-							 	</div>
+								</div>
 							</div>
 							<div class="container-info">
 								<div class="cont">
@@ -147,7 +148,7 @@
 										<p class="p-title">Endereço</p>
 										<p>Brasil - Condeúba - BA</p>
 									</div>
-							 	</div>
+								</div>
 							</div>
 							<div class="container-info">
 								<div class="cont">
@@ -160,29 +161,30 @@
 							</div>
 						</div>
 					</div>
-					<div class="contato-right"> 
+					<div class="contato-right">
 						<div class="form-ctt">
 							<h3>Entrar Em contato</h3>
-							
-								<form action="https://formsubmit.co/diannovaisdacruz@gmail.com" method="POST">
-									<div class="form">
-										<div class="cont">
-											<input type="text" name="name" class="medio" placeholder="Nome" required>
-											<input type="email" name="email" class="medio" placeholder="Email" required>
-										</div>
-										<input type="text" name="subject" class="grande" placeholder="Assunto" required>
-										<textarea type="text" name="mensagem" rows="5" class="grande" placeholder="Escreva sua Mensagem" required></textarea>
+
+							<form action="https://formsubmit.co/diannovaisdacruz@gmail.com" method="POST">
+								<div class="form">
+									<div class="cont">
+										<input type="text" name="name" class="medio" placeholder="Nome" required>
+										<input type="email" name="email" class="medio" placeholder="Email" required>
 									</div>
-									<input type="hidden" name="_next" id="_next" value="./obrigado.html">
-									<input type="hidden" name="_captcha" id="_next" value="false">
-									<button type="submit" class="botaomain">Enviar</button>
-							   </form>
+									<input type="text" name="subject" class="grande" placeholder="Assunto" required>
+									<textarea type="text" name="mensagem" rows="5" class="grande"
+										placeholder="Escreva sua Mensagem" required></textarea>
+								</div>
+								<input type="hidden" name="_next" id="_next" value="./obrigado.html">
+								<input type="hidden" name="_captcha" id="_next" value="false">
+								<button type="submit" class="botaomain">Enviar</button>
+							</form>
 						</div>
 					</div>
 				</div>
 			</section>
-			
-		</section> 
+
+		</section>
 	</main>
 	<footer id="footer" class="footer-container">
 		<p>© <a href="https://dian.ga">Dian Novais</a> | Todos direitos reservados.
@@ -192,4 +194,5 @@
 	<script src="./assets/js/href-card.js"></script>
 	<script src="./assets/js/buttontop.js"></script>
 </body>
+
 </html>
