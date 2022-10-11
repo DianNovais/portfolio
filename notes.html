@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apresentação Notes Online</title>
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="./assets/css/index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <p>
+        Para contato, testes e perguntas, utilize o meu <b>Linkedin</b>, e para ver o código do
+        projeto veja o <b>Github</b>.
+      </p>
+      <div class="buttons-container">
+        <a class="btn-margin linkedin" href="https://www.linkedin.com/in/dian-novais-3872ab22b/">LinkedIn</a>
+        <a class="btn-margin github" href="https://github.com/DianNovais/mynotesonline">Github</a>
+      </div>
+    </header>
+    <main>
+      <div class="content-container">
+        <h2>Notes Online</h2>
+        <p>
+          Nessa página venho trazer a vocês, esse novo projeto com suas
+          informações, quais tecnologias foram usadas e como funciona o mesmo.
+          Role a página para ver as informações, ou clique nas opções abaixo.
+        </p>
+        <div class="list-container">
+            <ul>
+                <li><a href="#tecnologia">Tecnologias</a></li>
+                <li><a href="#utilidades">Utilidades</a></li>
+                <li><a href="#video">Video</a></li>
+            </ul>
+        </div>
+        <div class="img-notes-container">
+          <img src="./assets/img/fav.png" class="img-notes" />
+        </div>
+
+        <div class="cards-container" id="tecnologias">
+            <div class="card">
+                <h3>Tecnologias usadas</h3>
+                <img class="img-card" src="./assets/img/img1.png" />
+                <p>Neste projeto foi utilizado o ReactJs para o frontEnd com seus hooks de muita importância, com o ReactJs conectamos e consumimos uma API projetada e desenvolvida com o FrameWork Express onde utiliza o Node.js, essa API faz validações e se conecta com o Data Base da MongoDb. Com essas tecnologias foi possível a realização desse projeto.</p>
+            </div>
+            <div class="card" id="utilidades">
+                <h3>Utilidades do App</h3>
+                <img class="img-card" src="./assets/img/img-2.png" />
+                <p>Item 1: Como podem ver no item 1, é o caderno de anotações, onde você pode adicionar seu titulo, e sua nota, em seguida clique no botão salvar e pronto, sua nota está salva no servidor online!</p>
+                <p>Item 2: No Item 2 aparece uma lixeira, basta clicar para remover sua nota.</p>
+                <p>Item 3: É um ponto de exclamação onde você pode está alterando se sua nota é prioridade ou não.</p>
+                <p>Item 4: Esse é o filtro, as opções permitem separar as notas com prioridade das quais não são prioridade.</p>
+                <p>Item 5: No item 5 também importante, você pode alterar sua nota apenas clicando em cima e começando a editar, assim que começar a escrever aparecerá um texto "editando...", para salvar basta clicar fora da nota. </p>
+                <p>Veja o video abaixo</p>
+            </div>
+           
+            <div class="card" id="video">
+                <h3>Video de demostração do App</h3>
+                <iframe src="https://drive.google.com/file/d/1JjxXs9PCsP-84NWjr1rBOM32UCNM3b1p/preview" width="640" height="480" allow="autoplay"></iframe>
+            </div>
+        </div>
+      </div>
+    </main>
+    <footer id="footer" class="footer-container">
+      <p>© <a href="https://dian.ga">Dian Novais</a> | Todos direitos reservados.
+    </footer>
+  </body>
+</html>
